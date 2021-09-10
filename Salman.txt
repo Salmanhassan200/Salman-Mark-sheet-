@@ -1,0 +1,42 @@
+
+void main (){
+var name = "              MARKSHEET         ";
+print(name);
+var p = "Name           :  Salman Hassan";
+print (p);
+var c = "Father Name    :  M.Hassan";
+print(c);
+var a = "School Name    :  City School";
+print (a);
+num q=100;
+  num w=92;
+  num e=85;
+  num r=87;
+  num t=94;
+  num y=81;
+  num l=5;
+  num z=1;
+  num x=2;
+  num v=3;
+  num b=4;
+  num sum=w+e+r+t+y;
+  num d=q*l;
+  var per= sum/d*100;
+  print("S/NO   Subjects       MARKS      TOTAL MARKS     ");
+  print("${z}      Math           ${e}           ${q}");
+  print("${x}      English        ${w}           ${q}");
+  print("${v}      Chemistry      ${r}           ${q}");
+  print("${b}      urdu           ${t}           ${q}");
+  print("${l}      Physics        ${y}           ${q}");
+  if (per >= 90 && per <100){ print("GRADE : A+"); }
+  else if (per >= 70  && per < 90){ print("GRADE      : A");}
+    else if(per >= 60 && per < 70){ print("GRADE : B");}
+    else if (per >= 50 && per < 60){ print ("GRADE : C");}
+  print ("PERCENTAGE : ${per}%");
+   if (sum >= 300 ){
+    print ("RESULT     :  PASS CONGRATULATIONS");
+  } else {
+    print ("Result Fail ");
+  }
+
+}   
